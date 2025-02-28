@@ -28,7 +28,7 @@ st.markdown("""
         h1 {
             color:white;
             text-align: center;
-            background-color:black
+            background-color:black;
         }
         .stButton>button {
             background-color: red;
