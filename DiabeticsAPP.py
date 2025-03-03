@@ -20,7 +20,7 @@ st.markdown("""
             background-image:url(https://www.shutterstock.com/image-photo/diabetes-concept-blood-sugar-meter-600nw-2464647841.jpg);
             background-size: cover;
             # background-blend-mode: overlay;
-            # background-color: rgba(1, 1, 1,0.002); /* Adjust transparency */
+            background-color: rgba(1, 1, 1,0.002); /* Adjust transparency */
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
