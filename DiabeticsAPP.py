@@ -10,11 +10,11 @@ scaler = joblib.load("Scaler.pkl")
 # Custom CSS for styling
 st.markdown("""
     <style>
-        body {
-            background-color: #f4f4f4;
-            color: #333333;
+        # body {
+        #     background-color: #f4f4f4;
+        #     color: #333333;
            
-        }
+        # }
         .main {
             # background-color: white;
             background-image:url(https://www.shutterstock.com/image-photo/diabetes-concept-blood-sugar-meter-600nw-2464647841.jpg);
