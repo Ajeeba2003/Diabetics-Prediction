@@ -15,7 +15,7 @@ st.markdown("""
             color: #333333;
            
         }
-        .main {
+        [data-testid="stMainBlockContainer"]{
             # background-color: white;
             background-image:url('https://www.shutterstock.com/image-photo/diabetes-concept-blood-sugar-meter-600nw-2464647841.jpg');
             background-size: cover;
