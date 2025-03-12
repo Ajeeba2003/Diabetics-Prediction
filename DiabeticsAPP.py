@@ -57,7 +57,7 @@ st.markdown("""
 st.markdown('<p class="custom-text">This web app helps predict the likelihood of diabetes in females based on key health parameters. Enter your details, and our model will analyze the data to provide an assessment. Take a step towards better health with this simple and efficient tool!</p>', unsafe_allow_html=True)
 
 
-st.markdown("### Enter Your Details Below:")
+# st.markdown("### Enter Your Details Below:")
 
 # Using columns for better layout
 
