@@ -120,10 +120,24 @@ data = pd.DataFrame([{
 scaled_data = scaler.transform(data)
 
 # Prediction
+# if st.button('Predict'):
+#     prediction = model.predict(scaled_data)
+#     if prediction == 1:
+#         st.warning('⚠️ Likely to have Diabetes')
+#     else:
+#         st.success('✅ Not Likely to have Diabetes')
 if st.button('Predict'):
     prediction = model.predict(scaled_data)
     if prediction == 1:
-        st.warning('⚠️ Likely to have Diabetes')
+        st.markdown("""
+            <div style="background-color:#fff3cd; padding:10px; border-radius:5px">
+                <p style="color:red; font-weight:bold; font-size:18px;">⚠️ Likely to have Diabetes</p>
+            </div>
+        """, unsafe_allow_html=True)
     else:
-        st.success('✅ Not Likely to have Diabetes')
+        st.markdown("""
+            <div style="background-color:#d4edda; padding:10px; border-radius:5px">
+                <p style="color:green; font-weight:bold; font-size:18px;">✅ Not Likely to have Diabetes</p>
+            </div>
+        """, unsafe_allow_html=True)
 
